@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SPA Chapter 1 section 1.2.2</title>
+    <link rel="stylesheet" href="css/spa.css">
+    <link rel="stylesheet" href="css/spa.shell.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.uriAnchor.js"></script>
+    <script src="js/spa.js"></script>
+    <script src="js/spa.shell.js"></script>
+    <script type="text/javascript">
+        /*  jslint   browser: true, continue: true, devel: true, indent: 2, maxerr: 50,
+            newcap: true, nomen: true, plusplus: true,
+            regexp: true, sloppy: true, vars: true,
+            white: true
+        */
+
+        jQuery(document).ready(
+                function () {
+                    spa.initModule(jQuery('#spa'));
+                }
+        );
+    </script>
+</head>
+<body>
+    <div id="spa"></div>
+</body>
+</html>
